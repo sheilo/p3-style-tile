@@ -45,6 +45,21 @@ section {
 	width: 50px;
 }
 
+.color-1 {
+	background: #B4FFC0;
+}
+
+.color-2 {
+	background: #6FB2C2;
+}
+
+.color-3 {
+	background: #E2C8A9;
+}
+
+.pattern-1 {
+	background: url("../img/hexellence.png");
+}
 
 /* Show Grid */
 .showgrid {
