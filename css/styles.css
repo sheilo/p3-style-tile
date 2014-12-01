@@ -1,30 +1,33 @@
 /* Primary heading */
-h1 {
-	color: #A3D86E;
+.container {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+h1, 
+h2, 
+h3, 
+h4 {
+	color: #A8C060;
 	font-family: 'Russo One', sans-serif;
+}
+
+h1 {
 	width: 370px;
 	padding: 10px 0 0 10px;
 	margin: 10px 0 0 10px;
 	font-size: 2.5em;
 }
 
-h2 {
-	font-family: 'Russo One', sans-serif;
-	color: #A3D86E;
+h2, 
+h3 {
 	padding: 0 10px 0 10px;
 	margin: 0 10px 0 10px;	
 }
 
 h3 {
-	font-family: 'Russo One', sans-serif;
-	color: #A3D86E;
-	padding: 0 10px 0 10px;
 	margin: 5px 5px 5px 5px;	
-}
-
-h4 {
-	font-family: 'Russo One', sans-serif;
-	color: #A3D86E;
 }
 
 body {
@@ -36,9 +39,13 @@ p {
 	margin: 5px 0 5px 0;
 }
 
+img {
+	width: 300px;
+}
+
 a:link,
 a:visited {
-	color: black;
+	color: #A8C060;
 	text-decoration: none;
 	margin: 0 5px 0 5px;
 	transition: color .25s;
@@ -46,7 +53,7 @@ a:visited {
 
 a:hover {
 	text-decoration: line-through;
-	color: #A3D86E;
+	color: #8A8A8A;
 }
 
 /* Set Your Own Margin & Padding */
@@ -69,12 +76,12 @@ section {
 	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 }
 
 .color-1 {
-	background: #A3D86E;
+	background: #A8C060;
 }
 
 .color-2 {
@@ -86,8 +93,75 @@ section {
 }
 
 .pattern-1 {
+	background: url("../img/bg.png");
+}
+
+.pattern-2 {
 	background: url("../img/hexellence.png");
 }
+
+.pattern-3 {
+	background: url("../img/footer_lodyas.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Show Grid */
 .showgrid {
